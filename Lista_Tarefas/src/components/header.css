@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #0056B3;
+    color: white;
+  }
+
+  h1 {
+    font-family:  Helvetica, sans-serif;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .botao_nav {
+    border: 1.5px solid #034b97;
+    border-radius: 5px;
+    height: 5vh;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vw;
+  }
+
+  .link_telas {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .link_telas:visited {
+    color: white;
+  }
