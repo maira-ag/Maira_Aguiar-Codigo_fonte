@@ -5,10 +5,10 @@ import './header.css';
 const Header = ({ title }) => {
   return (
     <header>
-      <h1>{title}</h1>
+      <h1>{title}</h1> {/*fazer isso um link para a tela de boas-vindas*/}
       <nav>
         <div className='botao_nav'>
-          <Link className='link_telas' id='tela_cadastro_usuario' to="/">Cadastro de Usuário</Link>
+          <Link className='link_telas' id='tela_cadastro_usuario' to="/cadastro-usuario">Cadastro de Usuário</Link>
         </div>
 
         <div className='botao_nav'>

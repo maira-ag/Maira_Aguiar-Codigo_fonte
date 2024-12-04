@@ -30,7 +30,7 @@ const GerenciamentoTarefas = () => {
 
   return (
     <div>
-      <Header title="Gerenciamento de Tarefas" />
+      <Header title="TaskHub" />
       <div className="task-columns">
         <div className="column">
           <h3 className='titulo' >A Fazer</h3>

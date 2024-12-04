@@ -18,7 +18,7 @@ const CadastroUsuario = () => {
 
   return (
     <div>
-      <Header title="Cadastro de Usuário" />
+      <Header title="TaskHub" />
       <form>
         <div className='nome_input'>
           <h3>Nome:</h3>

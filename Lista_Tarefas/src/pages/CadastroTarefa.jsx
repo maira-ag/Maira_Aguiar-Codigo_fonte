@@ -24,7 +24,7 @@ const CadastroTarefas = () => {
 
   return (
     <div>
-      <Header title="Cadastro de Tarefas" />
+      <Header title="TaskHub" />
       <form className='form_tarefa'>
 
         <div className='centralizando'>
